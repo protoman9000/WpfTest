@@ -6,5 +6,15 @@
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72">
             Hello, WPF!
         </TextBlock>
+        <Button Margin="151,30,136,207">
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Blue">Multi</TextBlock>
+                    <TextBlock Foreground="Red">Color</TextBlock>
+                    <TextBlock>Button</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+            
+        </Button>
     </Grid>
 </Window>
