@@ -1,19 +1,10 @@
 ﻿<Window x:Class="WpfTest.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         Title="MainWindow" Height="350" Width="525">
-    <Window.Resources>
-        <sys:String x:Key="Purpose">Hello WPF World!</sys:String>
-    </Window.Resources>
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <Label x:Name="lblPurpose" Content="{StaticResource Purpose}"
-                   FontSize="25" Grid.Row="0" Grid.Column="0" />
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72">
+            Hello, WPF!
+        </TextBlock>
     </Grid>
 </Window>
